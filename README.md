@@ -28,6 +28,13 @@ The following libraries and dependencies were deployed:
 - JavaScript VM
 - 
 
-## Explanation and Usage of Application
+## Execution Results
+The execution results can be viewed in the execution result folder with the following output screenshots:
+- Account Call logs
+- Compiled smart contract
+- Contract balance tests for 1, 10 and 5 Ether
+- Smart Contract deployment screenshot
+- Deposit transactions screenshots
+- LastToWithdraw, LastTowithdrawAmount and contractBalance screenshots
 
 

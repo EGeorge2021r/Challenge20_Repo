@@ -1,5 +1,4 @@
-/*
-// Joint Savings Account
+// Joint Savings Account 	"SPDX licence identifier:  AFL-1.1	
 
 /* To automate the creation of joint savings accounts, you will create a solidity smart contract that accepts two user addresses that are then able to control a joint savings account. Your smart contract will use ether management functions to implement various requirements from the financial institution to provide the features of the joint savings account.
  The Starting file provided for this challenge contains a `pragma` for solidity version `5.0.0`.
@@ -10,7 +9,6 @@
  */
 
 pragma solidity ^0.5.0;
-
     // Define a new contract named `JointSavings`
 contract JointSavings {
     /*
@@ -20,8 +18,12 @@ contract JointSavings {
     - Two variables of type `uint public` named `lastWithdrawAmount` and `contractBalance`.
     */
     // YOUR CODE HERE!
-    address payable accountOne;
-    address payable accountTwo;
+    address  payable accountOne;
+    address  payable accountTwo;
+
+    // Line codes 25 and 26 were made payable public to allow viewing the output during testing and commented out after.
+    // address payable public accountOne;
+    // address payable public  accountTwo;
     address public lastToWithdraw;
     uint public lastWithdrawAmount;
     uint public contractBalance;
@@ -69,11 +71,13 @@ contract JointSavings {
 
     // Define a `public` function named `setAccounts` that receive two `address payable` arguments named `account1` and `account2`.
     function setAccounts(address payable account1, address payable account2) public{
-
         // Set the values of `accountOne` and `accountTwo` to `account1` and `account2` respectively.
         // YOUR CODE HERE!
         accountOne = account1;
         accountTwo = account2;
+        // Dummy addresses used are shown below in line codes 79 and 80
+        // accountOne =  0x7A1f3dFAa0a4a19844B606CD6e91d693083B12c0;
+        // accountTwo = 0x7A1f3dFAa0a4a19844B606CD6e91d693083B12c0;
     }
 
     //Finally, add the **default fallback function** so that your contract can store Ether sent from outside the deposit function.
