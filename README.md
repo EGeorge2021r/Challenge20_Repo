@@ -30,7 +30,7 @@ The following libraries and dependencies were deployed:
 ## Execution Results
 The execution results can be viewed in the execution result folder with the following output screenshots:
 ### accountOne  Call log
-- ![accountOne Call](https://user-images.githubusercontent.com/88909565/153538002-8e135db7-919c-400f-a8fd-770e51a21208.png)
+![accountOne Call](https://user-images.githubusercontent.com/88909565/153538002-8e135db7-919c-400f-a8fd-770e51a21208.png)
 
 ### accountTwo Call log
 ![accountTwo Call log](https://user-images.githubusercontent.com/88909565/153538114-a0f416af-effc-4275-a285-0d0799b33eb6.png)
