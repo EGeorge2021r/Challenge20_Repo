@@ -26,16 +26,36 @@ The execution of this project is broken into three steps:
 The following libraries and dependencies were deployed:
 - Remix IDE
 - JavaScript VM
-- 
 
 ## Execution Results
 The execution results can be viewed in the execution result folder with the following output screenshots:
-- accountOne and accountTwo Call logs
-- Compiled smart contract
-- Contract balance tests for 1, 10 and 5 Ether
-- Smart Contract deployment screenshot
-- Deposit transactions screenshots
-- LastToWithdraw, LastTowithdrawAmount
-- contractBalance screenshots
+### accountOne  Call log
+- ![accountOne Call](https://user-images.githubusercontent.com/88909565/153538002-8e135db7-919c-400f-a8fd-770e51a21208.png)
+
+### accountTwo Call log
+![accountTwo Call log](https://user-images.githubusercontent.com/88909565/153538114-a0f416af-effc-4275-a285-0d0799b33eb6.png)
+
+### Compiled smart contract
+![compileSmart Contract](https://user-images.githubusercontent.com/88909565/153538141-e4748065-aafc-4d02-8348-c055eae6212d.png)
+
+
+###  Set Account
+![SetAccount Transactions](https://user-images.githubusercontent.com/88909565/153538503-db461630-a9b8-45f4-9a50-181474c6d308.png)
+
+
+### Smart Contract deployment screenshot
+![Deployment Screenshot](https://user-images.githubusercontent.com/88909565/153538209-bf0ca4c7-80e0-4a75-a3ee-0b4b8c9dbdbc.png)
+
+
+### Deposit transactions screenshots
+![Deposit TransactionsScreenshot](https://user-images.githubusercontent.com/88909565/153538240-5b175bd7-b7be-4f0b-a95a-b627ae599cc5.png)
+
+
+### LastToWithdraw, LastTowithdrawAmount
+![LastTowithdraw screenshot2](https://user-images.githubusercontent.com/88909565/153538273-8fa071ac-737a-4d93-ac43-dac1132b4abb.png)
+
+
+- contractBalance screenshots tests for 1, 10 and 5 Ether
+![contractBalance1-3 tests](https://user-images.githubusercontent.com/88909565/153538756-ed31a83d-108e-4e38-b56c-60af92d7bb6c.png)
 
 
