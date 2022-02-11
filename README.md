@@ -31,6 +31,7 @@ The following libraries and dependencies were deployed:
 ## Execution Results
 The execution results can be viewed in the execution result folder with the following output screenshots:
 - accountOne and accountTwo Call logs
+
 - Compiled smart contract
 - Contract balance tests for 1, 10 and 5 Ether
 - Smart Contract deployment screenshot
