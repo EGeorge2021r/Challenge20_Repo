@@ -26,17 +26,7 @@ The execution of this project is broken into three steps:
 The following libraries and dependencies were deployed:
 - Remix IDE
 - JavaScript VM
-- 
 
 ## Execution Results
 The execution results can be viewed in the execution result folder with the following output screenshots:
-- accountOne and accountTwo Call logs
-
-- Compiled smart contract
-- Contract balance tests for 1, 10 and 5 Ether
-- Smart Contract deployment screenshot
-- Deposit transactions screenshots
-- LastToWithdraw, LastTowithdrawAmount
-- contractBalance screenshots
-
 
